@@ -1,0 +1,8 @@
+<view class="container">
+    <image src="/images/avatar/4.png" class="user-avatar"/>
+    <!--通过text包裹可以长按选择-->
+    <text class="user-name"><text style="color:red">Hello</text>,七月</text>
+    <view class="moto-container" bindtap="gotoPost">  
+      <text class="moto">开启小程序之旅</text>
+    </view>
+</view>
